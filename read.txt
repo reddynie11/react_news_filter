@@ -1,0 +1,29 @@
+step 1:
+    npm init 
+
+step 2:
+    install React & ReactDOM
+    npm i react react-dom 
+
+step 3:
+    create a folder(src/app) with index.js & index.css init
+
+step 4 : 
+    create a component inside index.js
+
+step 5 : 
+    installing dev dependecies 
+    npm i --save-dev @babel/core @babel/preset-env @babel/preset-react webpack webpack-cli webpack-dev-server babel-loader css-loader style-loader html-webpack-plugin
+
+step 6:
+    create a JS file 'webpack config'
+
+step 7:
+    create a public folder with index.html in it 
+
+step 8:
+    create .babelrc file in project folder
+
+step 9:
+    "start" : "webpack-dev-server" in package.json
+    "build" : "webpack" in package.json (to build bundle for production)
