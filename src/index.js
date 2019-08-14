@@ -1,11 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import JSON from './db.json'
+import Header from './components/header';
+import NewsList from "./components/NewsList"
 class App extends React.Component{
+    state= { news : JSON }
+
     render(){
         return(
             <div>
-                <h1>Hello from React webpack</h1>
+                <Header />
+                <NewsList data={this.state.news} />
             </div>
         )
     }
